@@ -1,0 +1,7 @@
+$h:300px;
+$w:300px;
+img {
+  height: $h;
+  width: $w;
+  transform: translate($h,$w);
+}

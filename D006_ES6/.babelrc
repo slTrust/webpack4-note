@@ -1,0 +1,25 @@
+{
+  // 开发业务使用
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "useBuiltIns": "usage"
+      }
+    ]
+  ]
+  /*
+  // 开发类库使用
+  "plugins": [
+    [
+      "@babel/plugin-transform-runtime",
+      {
+        "corejs": 2,
+        "helpers": true,
+        "regenerator": true,
+        "useESModules": false,
+      }
+    ]
+  ]
+  */
+}
